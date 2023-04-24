@@ -2,7 +2,6 @@ Feature: Demo GET API
 
   Background: 
     * url baseURL
-    * header Accept = 'Application/json'
 
   #Simple GET API
   Scenario: Simple GET API

@@ -2,7 +2,6 @@ Feature: Demo POST API
 
   Background: 
     * url baseURL
-    * header Accept = 'Application/json'
     * def requestBody = read('Request.json')
 
   #Simple POST API
